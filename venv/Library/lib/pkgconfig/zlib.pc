@@ -1,0 +1,13 @@
+prefix=D:/house_p_pred/venv/Library
+exec_prefix=D:/house_p_pred/venv/Library
+libdir=D:/house_p_pred/venv/Library/lib
+sharedlibdir=D:/house_p_pred/venv/Library/lib
+includedir=D:/house_p_pred/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
